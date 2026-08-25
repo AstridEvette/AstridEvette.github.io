@@ -1,0 +1,138 @@
+:root {
+  --ink: #1a1a1a;
+  --paper: #fdfcfa;
+  --muted: #5a5a5a;
+  --line: #e2ddd4;
+  --accent: #8a3324;
+  --max-width: 640px;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.wrap {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--line);
+  padding: 20px 0;
+}
+
+.site-header .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.site-name {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.site-header nav a {
+  margin-left: 20px;
+  font-size: 15px;
+  text-decoration: none;
+  color: var(--ink);
+  border-bottom: 1px solid transparent;
+}
+
+.site-header nav a:hover {
+  border-bottom-color: var(--accent);
+}
+
+main {
+  padding: 48px 24px 24px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  line-height: 1.25;
+  margin: 0 0 20px;
+}
+
+.lede {
+  font-size: 20px;
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 56px;
+}
+
+h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 10px;
+  margin-bottom: 28px;
+}
+
+.piece {
+  margin-bottom: 32px;
+}
+
+.piece h3 {
+  font-size: 22px;
+  margin: 0 0 8px;
+}
+
+.piece h3 a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.piece h3 a:hover {
+  color: var(--accent);
+}
+
+.piece p {
+  color: var(--muted);
+  margin: 0;
+}
+
+.topics {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.topics li {
+  margin-bottom: 16px;
+}
+
+a {
+  color: var(--accent);
+}
+
+footer {
+  border-top: 1px solid var(--line);
+  padding: 24px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  body { font-size: 16px; }
+  .hero h1 { font-size: 26px; }
+  .lede { font-size: 18px; }
+}
