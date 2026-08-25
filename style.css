@@ -288,6 +288,43 @@ a:hover { color: var(--ink); }
   margin-top: 14px;
 }
 
+/* Testimonials */
+
+.testimonial {
+  margin-bottom: 26px;
+  padding-bottom: 26px;
+  border-bottom: 1px solid var(--line);
+}
+
+.testimonial:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.testimonial blockquote {
+  margin: 0 0 10px;
+  font-family: "Fraunces", serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.testimonial cite {
+  display: block;
+  font-style: normal;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.testimonial cite strong {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  color: var(--ink);
+}
+
 /* Explore (home page quicklinks) */
 
 .explore-list {
