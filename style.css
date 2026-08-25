@@ -9,7 +9,7 @@
   --accent-text: #8a6d00;  /* deep gold, same hue family — used only where accent is body/link TEXT, for readability */
   --accent-ink: #1c1a17;   /* text placed on top of the bright yellow */
   --line: #e4dcc9;
-  --max-width: 900px;
+  --max-width: 1140px;
 }
 
 * { box-sizing: border-box; }
