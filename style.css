@@ -225,6 +225,38 @@ a:hover { color: var(--ink); }
   color: var(--muted);
 }
 
+/* Press strip */
+
+.press-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  padding: 20px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  margin: 0 0 40px;
+}
+
+.press-label {
+  font-family: "Fraunces", serif;
+  font-style: italic;
+  font-size: 13px;
+  color: var(--muted);
+  margin-right: 4px;
+}
+
+.press-item {
+  font-family: "Fraunces", serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--ink);
+}
+
+.press-dot {
+  color: var(--accent-text);
+}
+
 /* Pull quote */
 
 .pullquote {
